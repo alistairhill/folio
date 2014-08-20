@@ -146,6 +146,8 @@ hr.small {
 
 /* Logo */
 .ah-logo {
+	padding: 7px;
+	float: left;
   width: 100% \9;
   max-width: 100%;
   height: auto;
@@ -175,7 +177,11 @@ hr.small {
 }
 
 .skills {
-	padding: 20px 0;
+	padding: 50px 0;
+}
+
+.skills-icons {
+	padding: 25px 0;
 }
 
 .ruby-rails, .js-jquery, .testing, .html-css  {
@@ -207,7 +213,7 @@ hr.small {
 	background: url(../img/jquery.png) no-repeat center center scroll;
 }
 .testing:hover {
-	background: url(../img/jasmine.png) no-repeat center center scroll;
+	background: url(../img/vomit.png) no-repeat center center scroll;
 }
 .html-css:hover {
 	background: url(../img/css3.png) no-repeat center center scroll;
@@ -265,5 +271,5 @@ hr.small {
 
 /* Footer */
 footer {
-	padding: 100px 0;
+	padding: 50px 0;
 }
